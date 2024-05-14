@@ -3,6 +3,21 @@ body {
 }
 
 h1,
-a {
+p {
   color: white;
+  text-align: center;
+}
+a {
+  color: purple;
+}
+img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }
